@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Bright</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+
+  <body>
+
+    <h1>Bright</h1>
+
+<!-- carousel -->
+<div class="owl-carousel">
+  <div class="item"><img src="img/img_four.jpg"></div>
+  <div class="item"><img src="img/img_five.jpg"></div>
+  <div class="item"><img src="img/img_three.jpg"></div>
+  <div class="item"><img src="img/img_two.jpg"></div>
+  <div class="item"><img src="img/img_one.jpg"></div>
+  <div class="item"><img src="img/img_six.jpg"></div>
+  <div class="item"><img src="img/img_seven.jpg"></div>
+  <div class="item"><img src="img/img_eight.jpg"></div>
+</div>
+    <!-- JavaScript -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+      $('.owl-carousel').owlCarousel({
+          items : 1,
+          autoplay: false,
+          autoplayhoverpause: true,
+          autoplaytimeout: 2000,
+          dots: true,
+          items: 1,
+          loop: true,
+          margin: 10,
+          nav: false
+
+      })
+     })
+    </script>
+  </body>
+</html>
